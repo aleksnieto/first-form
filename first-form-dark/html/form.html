@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Regístrate aquí</h2>
+        <div class="botones-redes">
+            <div class="google-btn">
+                <button id="google-btn">
+                <picture>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" alt="google-foto">
+                </picture>
+                <span class="sesion">Registrarse con Google</span>
+                </button>
+            </div>
+            <div class="twitter-btn">
+                <button id="twitter-btn">
+                    <picture>
+                        <img src="https://www.svgrepo.com/show/183608/twitter.svg" alt="twitter">
+                    </picture>
+                </button>
+            </div>
+        </div>
+        <div class="divider">
+            <hr><span class="divisor">Or</span><hr>
+        </div>
+        <form method="" action="">
+            <div class="nameinputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input id="name" name="name"/>
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input id="username" name="username"/>
+                </label>
+            </div>
+            <div class="email">
+                <label for="email">
+                    <span>Email</span>
+                    <input type="email" id="email" name="email">
+                </label>
+            </div>
+            <div class="password">
+                <label for="password">
+                    <span>Password</span>
+                    <input type="password" id="password" name="password"></input>
+                </label>
+            </div>
+        </form>
+        <div class="checkbox"> 
+            <label for="checkbox"><input type="checkbox" id="checkbox" name="checkbox"/><span>Acepto las condiciones y el aviso legal.</span></label>
+        </div> 
+        <button id="submitbutton" class="submitbutton">
+            <span>Create Account</span>
+        </button>
+    </div>
+</body>
+</html>
